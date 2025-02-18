@@ -13,13 +13,13 @@ with sync_playwright() as playwright:
 
     # Enter email address
     email_input = page.get_by_label("Email or phone")
-    email_input.fill("shuvankard32@gmail.com")
+    email_input.fill("shuvankar@gmail.com")
 
     page.get_by_role("button", name="Next").click()
 
     # Enter password
     password_input = page.get_by_label("Enter password")
-    password_input.fill("shuvankarfloyd")
+    password_input.fill("Neni")
 
     page.get_by_role("button", name="Next").click()
 
